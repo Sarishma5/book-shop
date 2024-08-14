@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!----------  id books .books   --------->
+<div id="books" class="books">
+    <div class="img">
+        <img src="img/img1.jfif" alt="Book 1">
+        <p><strong>TO KILL A MOKING BIRD</strong></p>
+        <p>RS 1250</p>
+        <button onclick="add('TO KILL A MOKING BIRD')">ADD TO CART</button>
+    </div>
+    <div class="img">
+        <img src="img/img2.jpg" alt="Book 2">
+        <p><strong> Harry Potter</strong></p>
+        <p>RS 9500</p>
+        <button onclick="add('Harry Potter')">ADD TO CART</button>
+    </div>
+
+    <div class="img">
+        <img src="img/img3.webp" alt="Book 3">
+        <p><strong>The Old Man And The Sea</strong></p>
+        <p>RS 900</p>
+        <button onclick="add('The Old Man And The Sea')">ADD TO CART</button>
+    </div>
+
+    <div class="img">
+        <img src="img/img4.webp" alt="Book 4">
+        <p><strong>Lord Of The Ring</strong></p>
+        <p>RS 1000</p>
+        <button onclick="add('Lord Of The Ring')">ADD TO CART</button>
+    </div>
+
+    <div class="img">
+        <img src="img/img5.jfif" alt="Book 5">
+        <p><strong>The Road</strong></p>
+        <p>RS 1100</p>
+        <button onclick="add('The Road')">ADD TO CART</button>
+    </div>
+
+    <div class="img">
+        <img src="img/img6.jfif" alt="Book 6">
+        <p><strong>War And Peace</strong></p>
+        <p>RS 800</p>
+        
+        <button onclick="add('War And Peace')">ADD TO CART</button>
+    </div>
+
+    <div class="img">
+        <img src="img/img7.webp" alt="Book 7">
+        <p><strong>Kindom Of God</strong></p>
+        <p>RS 1500</p>
+        <button onclick="add('Kingdom of god')">ADD TO CART</button>
+    </div>
+
+    <div class="img">
+        <img src="img/img8.webp" alt="Book 8">
+        <p><strong>The Kite Runner</strong></p>
+        <p>RS 2000</p>
+        <button onclick="add('The Kite Runner')">ADD TO CART</button>
+    </div>
+
+    <div class="img">
+        <img src="img/img9.jfif" alt="Book 9">
+        <p><strong>The Alchemist</strong></p>
+        <p>RS 1800</p>
+        <button onclick="add('The Alchemist')">ADD TO CART</button>
+    </div>
+    
+    <div class="img">
+        <img src="img/img10.webp" alt="Book 10">
+        <p><strong>A Tale Of Two Cities</strong></p>
+        <p>RS 900</p>
+        <button onclick="add('A Tale Of Two Cities')">ADD TO CART</button>
+    </div>
+</div>
+<!-------   --------->
+
+
+<!----- cart ----
+<div id="cart">
+
+    total item-<b id="c"></b>
+    <ol id="hello"></ol>     ----- Item Detail Here---
+</div>
+-->
+
+<!----- cart -------> 
+<div id="cart">
+    <p>Total items: <b id="c"></b></p>
+    <ol id="hello"></ol>     <!------- Item Detail Here-->
+    <p>Total Price: <b id="total-price">RS 0</b></p>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

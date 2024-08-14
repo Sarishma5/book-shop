@@ -1,0 +1,123 @@
+/* Reset some default styles */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 30px;
+
+}
+
+/* Container for books */
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1200px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Individual book item */
+.img {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px; /* Fixed width */
+    text-align: center;
+    margin: 10px;
+}
+
+.img img {
+    width: 100%;
+    height: 300px; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+/* Price and button styling */
+.img p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.img button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.img button:hover {
+    background-color: #218838;
+}
+
+
+
+
+/* Style for the cart container */
+#cart {
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the total item display */
+#cart #c {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style for the item list */
+#cart #hello {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+/* Style for each item in the list */
+#cart #hello li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+
+
+
+/*-------------- cart --------------------*/
+/* Add these styles to your style.css file */
+#cart {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#hello li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+#hello img {
+    margin-right: 10px;
+}
